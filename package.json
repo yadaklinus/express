@@ -1,0 +1,19 @@
+{
+  "name": "newssite",
+  "version": "1.0.0",
+  "description": "simple news website with cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "test working npm start",
+    "start":"node main.js"
+  },
+  "author": "Yadak Linus",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  }
+}
