@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "test working npm start",
-    "start":"node main.js"
+    "start": "node main.js"
   },
   "author": "Yadak Linus",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
     "express-session": "^1.18.0",
